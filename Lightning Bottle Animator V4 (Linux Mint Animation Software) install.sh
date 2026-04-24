@@ -1,5 +1,5 @@
 #!/bin/bash
-# Lightning Bottle Animator Installation Script for Linux Mint
+# Lightning Bottle Animator v1 Installation Script for Linux Mint
 # Run with: sudo ./install.sh
 
 set -e
