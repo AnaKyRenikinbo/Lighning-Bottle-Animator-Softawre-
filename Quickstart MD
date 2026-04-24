@@ -1,0 +1,99 @@
+# ⚡ Quick Start Guide - Lightning Bottle Animator
+
+## Installation on Linux Mint
+
+### Option 1: Using the Install Script (Recommended)
+```bash
+# Navigate to the application folder
+cd lightning_bottle_animator
+
+# Run the installer with sudo
+sudo ./install.sh
+```
+
+### Option 2: Running Directly (No Installation)
+```bash
+# Install dependencies first
+sudo apt-get install python3 python3-pip python3-tk
+pip3 install Pillow
+
+# Run the application
+cd lightning_bottle_animator
+python3 src/main.py
+```
+
+## First Steps
+
+### 1. Creating Your First Drawing
+1. Select a tool from the toolbox on the left
+2. Choose a color from the palette on the right
+3. Adjust brush size using the slider
+4. Draw on the canvas!
+
+### 2. Using Character Templates
+1. Go to View → Character Templates (or click 🎭 Templates button)
+2. Choose a template category:
+   - Comic Book Heroes
+   - Retro Cartoon Characters
+   - Cute Animals
+   - Robots & Mechs
+   - Fantasy Characters
+   - Aliens & Creatures
+3. Customize the template with your own colors and details
+
+### 3. Creating Animations
+1. Draw your first frame
+2. Click "+" on the timeline to add a new frame
+3. Make changes for the next frame
+4. Press F5 or click ▶ to preview your animation
+5. Adjust FPS to control animation speed
+
+### 4. Working with Layers
+1. Click "+" in the Layers panel to add a new layer
+2. Use ↑/↓ buttons to reorder layers
+3. Each layer can be edited independently
+4. Layers composite together for the final image
+
+### 5. Saving Your Work
+- **Save Image**: File → Save Image (Ctrl+S)
+- **Open Image**: File → Open Image (Ctrl+O)
+- **Export Animation**: File → Export Animation
+
+## Tips for Retro 2000s Style Art
+
+1. **Bold Outlines**: Use thick brush strokes for outlines
+2. **Vibrant Colors**: Use the preset palette for authentic retro colors
+3. **Simple Shapes**: Start with basic shapes and refine
+4. **Exaggerated Features**: Large eyes, expressive faces
+5. **Cel Shading**: Use 2-3 shade levels for depth
+
+## Troubleshooting
+
+### Application won't start
+```bash
+# Check Python version
+python3 --version  # Should be 3.6 or higher
+
+# Install tkinter if missing
+sudo apt-get install python3-tk
+
+# Install Pillow
+pip3 install Pillow
+```
+
+### Colors look wrong
+- Make sure your monitor is set to display full color depth
+- Try restarting the application
+
+### Performance issues
+- Reduce canvas size for better performance
+- Limit the number of layers
+- Close other applications
+
+## Uninstallation
+```bash
+sudo ./uninstall.sh
+```
+
+---
+Happy Animating! ⚡🎨
